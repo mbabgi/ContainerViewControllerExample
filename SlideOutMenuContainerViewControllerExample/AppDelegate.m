@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SlideOutMenuContainerViewController.h"
+#import "MenuTableViewController.h"
+#import "CenterViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +18,17 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MenuTableViewController *menuTableViewController = [[MenuTableViewController alloc] init];
+    UINavigationController *menuNavigationController = [[UINavigationController alloc] initWithRootViewController:menuTableViewController];
+    
+    CenterViewController *centerViewController = [[CenterViewController alloc] init];
+    UINavigationController *centerNavigationController = [[UINavigationController alloc] initWithRootViewController:centerViewController];
+    
+    SlideOutMenuContainerViewController *slideOutMenuContainerViewController = [[SlideOutMenuContainerViewController alloc] initWithMenuViewController:menuNavigationController andCenterViewController:centerNavigationController];
+    
+    self.window.rootViewController = slideOutMenuContainerViewController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

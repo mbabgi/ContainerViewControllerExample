@@ -16,6 +16,10 @@
 		22B789EF1700842E004E35C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B789EE1700842E004E35C2 /* Default.png */; };
 		22B789F11700842E004E35C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B789F01700842E004E35C2 /* Default@2x.png */; };
 		22B789F31700842E004E35C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B789F21700842E004E35C2 /* Default-568h@2x.png */; };
+		22B789FB17008454004E35C2 /* SlideOutMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B789FA17008454004E35C2 /* SlideOutMenuContainerViewController.m */; };
+		22B789FE1700854A004E35C2 /* UIViewController+SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B789FD1700854A004E35C2 /* UIViewController+SlideMenu.m */; };
+		22B78A0117008582004E35C2 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B78A0017008582004E35C2 /* CenterViewController.m */; };
+		22B78A0417008591004E35C2 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B78A0317008591004E35C2 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		22B789EE1700842E004E35C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		22B789F01700842E004E35C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		22B789F21700842E004E35C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22B789F917008454004E35C2 /* SlideOutMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideOutMenuContainerViewController.h; sourceTree = "<group>"; };
+		22B789FA17008454004E35C2 /* SlideOutMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideOutMenuContainerViewController.m; sourceTree = "<group>"; };
+		22B789FC1700854A004E35C2 /* UIViewController+SlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SlideMenu.h"; sourceTree = "<group>"; };
+		22B789FD1700854A004E35C2 /* UIViewController+SlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SlideMenu.m"; sourceTree = "<group>"; };
+		22B789FF17008582004E35C2 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		22B78A0017008582004E35C2 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		22B78A0217008591004E35C2 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		22B78A0317008591004E35C2 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,14 @@
 				22B789EB1700842E004E35C2 /* AppDelegate.h */,
 				22B789EC1700842E004E35C2 /* AppDelegate.m */,
 				22B789E31700842E004E35C2 /* Supporting Files */,
+				22B789F917008454004E35C2 /* SlideOutMenuContainerViewController.h */,
+				22B789FA17008454004E35C2 /* SlideOutMenuContainerViewController.m */,
+				22B789FC1700854A004E35C2 /* UIViewController+SlideMenu.h */,
+				22B789FD1700854A004E35C2 /* UIViewController+SlideMenu.m */,
+				22B789FF17008582004E35C2 /* CenterViewController.h */,
+				22B78A0017008582004E35C2 /* CenterViewController.m */,
+				22B78A0217008591004E35C2 /* MenuTableViewController.h */,
+				22B78A0317008591004E35C2 /* MenuTableViewController.m */,
 			);
 			path = SlideOutMenuContainerViewControllerExample;
 			sourceTree = "<group>";
@@ -166,6 +186,10 @@
 			files = (
 				22B789E91700842E004E35C2 /* main.m in Sources */,
 				22B789ED1700842E004E35C2 /* AppDelegate.m in Sources */,
+				22B789FB17008454004E35C2 /* SlideOutMenuContainerViewController.m in Sources */,
+				22B789FE1700854A004E35C2 /* UIViewController+SlideMenu.m in Sources */,
+				22B78A0117008582004E35C2 /* CenterViewController.m in Sources */,
+				22B78A0417008591004E35C2 /* MenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
